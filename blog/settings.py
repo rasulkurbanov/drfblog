@@ -147,4 +147,3 @@ REST_FRAMEWORK = {
      ],
 }
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
