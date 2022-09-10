@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost', 
-    'drf-blog-api1.herokuapp.com/',]
+    'drf-blog-api1.herokuapp.com',]
 
 
 # Application definition
