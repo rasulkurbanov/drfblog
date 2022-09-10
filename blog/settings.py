@@ -25,9 +25,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4oiw0lr^fe#v9xk5_su3+lvlj*teyy!jajos&^#094j7!!0-g4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost', 
+    'drf-blog-api1.herokuapp.com/',]
 
 
 # Application definition
@@ -145,3 +147,4 @@ REST_FRAMEWORK = {
      ],
 }
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
